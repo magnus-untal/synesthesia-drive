@@ -9,7 +9,7 @@ public class CarMovement : MonoBehaviour
     // FixedUpdate works better with Physics
     void FixedUpdate()
     {
-        rb.AddForce(0, 0, forwardForce * Time.deltaTime);
+        vehicle.Translate(Vector3.forward * 100 * Time.deltaTime);
 
         if (Input.GetKey("a")){
         	vehicle.position = new Vector3(-10, 0, vehicle.position.z);

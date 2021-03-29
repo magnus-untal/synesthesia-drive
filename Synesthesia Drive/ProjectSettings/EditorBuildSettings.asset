@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Tutorial Level.unity
     guid: e9eeb0dbd92b8294998b17829d4a345e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main Menu.unity
     guid: 7f73fff6ddcfb1142910ef56877c3e19
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Synthnesthesia Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Test Scene.unity
+    guid: ce21e93d7af46fa4888ced0732f47c9a
   m_configObjects: {}

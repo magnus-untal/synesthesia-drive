@@ -11,7 +11,12 @@ public class ScoreSystem : MonoBehaviour
     public static int theStreak = 0;
     public static int multiplier = 1;
 
-  
+
+    private void Start()
+    {
+        scoreText.color = new Color32(255, 255, 255, 255);
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -19,25 +24,30 @@ public class ScoreSystem : MonoBehaviour
         if (theStreak < 10)
         {
             multiplierText.text = "1x multiplier";
-           
+            multiplierText.color = new Color32(255, 255, 255, 255);
+
         }
 
         else if (theStreak ==10)
         {
             multiplierText.text = "2x multiplier";
             multiplier = 2;
+            multiplierText.color = new Color32(188, 243, 15, 255);
+           
         }
         
         else if (theStreak == 20)
         {
             multiplierText.text = "3x multiplier";
             multiplier = 3;
+            multiplierText.color = new Color32(0, 255, 150, 255);
         }
 
         else if (theStreak == 30)
         {
             multiplierText.text = "5x multiplier";
             multiplier = 5;
+            multiplierText.color = new Color32(0, 231, 255, 255);
         }
 
         scoreText.text = theScore.ToString();

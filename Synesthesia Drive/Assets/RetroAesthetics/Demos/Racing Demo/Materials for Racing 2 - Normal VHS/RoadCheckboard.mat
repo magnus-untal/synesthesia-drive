@@ -4,13 +4,15 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: RoadCheckboard
-  m_Shader: {fileID: 4800000, guid: 817eb535dd3fc45ae8672e288192b963, type: 3}
-  m_ShaderKeywords: _EMISSION _USESPECULAR_ON
+  m_Shader: {fileID: 4800000, guid: dfa17a30b23e94b049ffccdb334d21bc, type: 3}
+  m_ShaderKeywords: _EMISSION _SUNENABLED_ON _USESPECULAR_ON
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -19,6 +21,10 @@ Material:
     m_TexEnvs:
     - _Cube:
         m_Texture: {fileID: 8900000, guid: 18875fff773234f45a9102aaaccee8f6, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubemapTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GridTex:
@@ -31,13 +37,35 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _CellSize: 12.1
+    - _CubemapEnabled: 0
+    - _DirectionPitch: 0
+    - _DirectionYaw: 0
     - _EmissionGain: 0.142
+    - _Exponent: 1
+    - _Gain: 2
+    - _Intensity: 1
     - _LineWidth: 0.082
     - _ParcelSize: 1
     - _Specular: 35
+    - _StripesDistance: 0.01
+    - _StripesExponent1: 4
+    - _StripesHeight: 0.45
+    - _StripesWidth: 0.01
+    - _SunEnabled: 1
+    - _SunExponent: 5
+    - _SunPitch: 0
+    - _SunSize: 0.01
+    - _SunYaw: 0
     - _UseSpecular: 1
     m_Colors:
+    - _Color1: {r: 0, g: 0.7, b: 0.74, a: 0}
+    - _Color2: {r: 0.96999997, g: 0.67, b: 0.50999993, a: 0}
+    - _ColorSun1: {r: 0.96999997, g: 0.67, b: 0.50999993, a: 0}
+    - _ColorSun2: {r: 0.96999997, g: 0.16999996, b: 0.20999995, a: 0}
+    - _Direction: {r: 0, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 1, b: 0.8341968, a: 1}
     - _LineColor: {r: 0.17030708, g: 0.9264706, b: 0.8013124, a: 1}
     - _MainColor: {r: 0, g: 1, b: 0.7103448, a: 1}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SunDirection: {r: 0, g: 1, b: 0, a: 0}
+    - _SunDirectionP: {r: 0, g: 0, b: 0, a: 0}

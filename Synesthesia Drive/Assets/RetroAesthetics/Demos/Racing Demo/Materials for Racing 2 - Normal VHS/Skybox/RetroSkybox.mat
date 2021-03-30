@@ -91,7 +91,7 @@ Material:
     - _SunEnabled: 1
     - _SunExponent: 4.04
     - _SunPitch: 96
-    - _SunSize: 0.012
+    - _SunSize: 0
     - _SunYaw: 180
     - _UVSec: 0
     - _ZWrite: 1

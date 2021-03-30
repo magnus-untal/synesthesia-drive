@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1653660941189974488}
   - component: {fileID: 1653660941189974495}
   - component: {fileID: 8109095900294015382}
+  - component: {fileID: 6701200763509342747}
   m_Layer: 0
   m_Name: Note
   m_TagString: Untagged
@@ -109,6 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 183293e053e76c24b8c38917153bd7a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  noteEffect: {fileID: 0}
 --- !u!54 &1653660941189974495
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -144,6 +146,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6701200763509342747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653660941189974501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9a2756f47d42c47a66b43ac2d10ff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bias: 1
+  timeStep: 0.15
+  timeToBeat: 0.05
+  restSmoothTime: 2
+  beatScale: {x: 7, y: 7, z: 7}
+  restScale: {x: 5, y: 5, z: 5}
 --- !u!1 &6158600422772308674
 GameObject:
   m_ObjectHideFlags: 0

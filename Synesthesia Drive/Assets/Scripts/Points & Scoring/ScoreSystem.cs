@@ -10,12 +10,19 @@ public class ScoreSystem : MonoBehaviour
     public static int theScore = 0;
     public static int theStreak = 0;
     public static int multiplier = 1;
-   
+
+  
+
     // Update is called once per frame
     void Update()
     {
+        if (theStreak < 10)
+        {
+            multiplierText.text = "1x multiplier";
+           
+        }
 
-        if (theStreak ==10)
+        else if (theStreak ==10)
         {
             multiplierText.text = "2x multiplier";
             multiplier = 2;

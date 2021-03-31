@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 2658089129098500304}
   - component: {fileID: 2658089129098500305}
   - component: {fileID: -8205679689964208404}
+  - component: {fileID: -6909242652938441161}
   m_Layer: 0
-  m_Name: Left No Obs
+  m_Name: Right Long Obs
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,3 +111,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-6909242652938441161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2658089129098500310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0876582e220963243a4e456bbeca09e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallEffect: {fileID: 0}

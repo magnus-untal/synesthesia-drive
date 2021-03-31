@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 8428808124264132293}
   - component: {fileID: 4395929033528193146}
   - component: {fileID: 7539136836072712277}
+  - component: {fileID: 197183230547739097}
   m_Layer: 0
-  m_Name: Mid Obs
+  m_Name: Center Obs
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,3 +111,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &197183230547739097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641673953301841158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0876582e220963243a4e456bbeca09e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallEffect: {fileID: 0}

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 678149656727216198}
   - component: {fileID: 4652530657219706617}
   - component: {fileID: 1526725582197024470}
+  - component: {fileID: -6290961133683509211}
   m_Layer: 0
   m_Name: Left Obs
   m_TagString: Obstacle
@@ -110,3 +111,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-6290961133683509211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7734936839272172421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0876582e220963243a4e456bbeca09e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallEffect: {fileID: 0}

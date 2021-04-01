@@ -17,12 +17,16 @@ public class AudioSpectrumTracker : MonoBehaviour
     public static float[] _audioBand = new float[8];
     public static float[] _audioBandBuffer = new float[8];
 
+    public float[] _audioBand2; //for phyllotaxis
+
     public static float _Amplitude, _AmplitudeBuffer;
+    public float _AmpBuffer; //for phyllotaxis
     float _AmplitudeHighest;
 
     // Start is called before the first frame update
     void Start()
     {
+        _audioBand2 = new float[8];
         _audioSource = GetComponent<AudioSource>();
         for(int i = 0; i<8; i++){
             _audioBand[i] = 0.01f;
@@ -54,6 +58,7 @@ public class AudioSpectrumTracker : MonoBehaviour
         }
         _Amplitude = _CurrentAmplitude / _AmplitudeHighest;
         _AmplitudeBuffer = _CurrentAmplitudeBuffer / _AmplitudeHighest;
+        _AmpBuffer = _CurrentAmplitudeBuffer / _AmplitudeHighest;
     }
 
     void CreateAudioBands(){
@@ -62,6 +67,7 @@ public class AudioSpectrumTracker : MonoBehaviour
                 _freqBandHighest[i] = _freqBand[i];
             }
             _audioBand[i] = (_freqBand[i] / _freqBandHighest[i]);
+            _audioBand2[i] = (_freqBand[i] / _freqBandHighest[i]);
             _audioBandBuffer[i] = (_bandBuffer[i] / _freqBandHighest[i]);
         }
     }

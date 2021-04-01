@@ -18,6 +18,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Test Scene.unity
     guid: ce21e93d7af46fa4888ced0732f47c9a
   - enabled: 0
-    path: Assets/Scenes/Single Terrain.unity
+    path: Assets/Scenes/Visualizer.unity
     guid: 242bdd826271f634abce78d620f8f56e
   m_configObjects: {}

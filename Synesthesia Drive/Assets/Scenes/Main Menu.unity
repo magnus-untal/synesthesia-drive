@@ -5898,10 +5898,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1676736608}
     m_Modifications:
+    - target: {fileID: 1120576109, guid: 13c298cd3775bf042988e2e22f42eb3d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1120576110, guid: 13c298cd3775bf042988e2e22f42eb3d, type: 3}
       propertyPath: menuButtonController
       value: 
       objectReference: {fileID: 1383897652}
+    - target: {fileID: 1120576110, guid: 13c298cd3775bf042988e2e22f42eb3d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 715450882012552304, guid: 13c298cd3775bf042988e2e22f42eb3d,
         type: 3}
       propertyPath: m_Text

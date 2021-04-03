@@ -15,6 +15,9 @@ public class ScoreSystem : MonoBehaviour
     private void Start()
     {
         scoreText.color = new Color32(255, 255, 255, 255);
+        theScore = 0;
+        theStreak = 0;
+        multiplier = 1;
     }
 
 

@@ -11,6 +11,7 @@ public class MenuNavigation : MonoBehaviour
         SceneManager.LoadScene(_sceneNumber);
     }
 
+    
     public void QuitGame()
     {
         Debug.Log("Quit");

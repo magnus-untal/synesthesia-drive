@@ -69,6 +69,8 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 51f1d3441c47b4b4199c09025167c591, type: 2}
+  - {fileID: 2100000, guid: 51f1d3441c47b4b4199c09025167c591, type: 2}
+  - {fileID: 2100000, guid: 51f1d3441c47b4b4199c09025167c591, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -157,6 +159,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _scaleMultiplier
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7797969579995959764, guid: 0ef263810cd1c714b8f757e4ef82da35,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7797969581615146146, guid: 0ef263810cd1c714b8f757e4ef82da35,
         type: 3}
@@ -288,6 +295,11 @@ PrefabInstance:
       propertyPath: _scaleMultiplier
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7797969579995959764, guid: 0ef263810cd1c714b8f757e4ef82da35,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7797969581615146146, guid: 0ef263810cd1c714b8f757e4ef82da35,
         type: 3}
       propertyPath: m_Name
@@ -417,6 +429,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _scaleMultiplier
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7797969579995959764, guid: 0ef263810cd1c714b8f757e4ef82da35,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7797969581615146146, guid: 0ef263810cd1c714b8f757e4ef82da35,
         type: 3}
@@ -548,6 +565,11 @@ PrefabInstance:
       propertyPath: _scaleMultiplier
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7797969579995959764, guid: 0ef263810cd1c714b8f757e4ef82da35,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7797969581615146146, guid: 0ef263810cd1c714b8f757e4ef82da35,
         type: 3}
       propertyPath: m_Name
@@ -678,6 +700,11 @@ PrefabInstance:
       propertyPath: _scaleMultiplier
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7797969579995959764, guid: 0ef263810cd1c714b8f757e4ef82da35,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7797969581615146146, guid: 0ef263810cd1c714b8f757e4ef82da35,
         type: 3}
       propertyPath: m_Name
@@ -807,6 +834,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _scaleMultiplier
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7797969579995959764, guid: 0ef263810cd1c714b8f757e4ef82da35,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7797969581615146146, guid: 0ef263810cd1c714b8f757e4ef82da35,
         type: 3}
@@ -958,6 +990,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7797969579995959764, guid: 0ef263810cd1c714b8f757e4ef82da35,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7797969581615146146, guid: 0ef263810cd1c714b8f757e4ef82da35,
         type: 3}
       propertyPath: m_Name
@@ -1082,6 +1119,16 @@ PrefabInstance:
         type: 3}
       propertyPath: _scaleMultiplier
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7797969579995959764, guid: 0ef263810cd1c714b8f757e4ef82da35,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f6c6b37aec9671644a3397493819078b, type: 2}
+    - target: {fileID: 7797969579995959764, guid: 0ef263810cd1c714b8f757e4ef82da35,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7797969581615146146, guid: 0ef263810cd1c714b8f757e4ef82da35,
         type: 3}
